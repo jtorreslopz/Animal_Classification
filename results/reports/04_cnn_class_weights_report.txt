@@ -1,0 +1,18 @@
+INFORME DE CLASIFICACIÓN: CNN con Class Weight
+==================================================
+Loss:     0.83
+Accuracy: 76.15 %
+==================================================
+
+              precision    recall  f1-score   support
+
+ butterflies       0.70      0.69      0.69       248
+    chickens       0.79      0.75      0.77       467
+   elephants       0.57      0.76      0.65       202
+      horses       0.78      0.71      0.74       370
+     spiders       0.81      0.79      0.80       944
+   squirells       0.61      0.66      0.64       318
+
+    accuracy                           0.74      2549
+   macro avg       0.71      0.73      0.72      2549
+weighted avg       0.75      0.74      0.74      2549

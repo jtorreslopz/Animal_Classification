@@ -1,0 +1,18 @@
+INFORME DE CLASIFICACIÓN: CNN sin Flatten (con GAP)
+==================================================
+Loss:     0.59
+Accuracy: 80.27 %
+==================================================
+
+              precision    recall  f1-score   support
+
+ butterflies       0.91      0.75      0.82       371
+    chickens       0.72      0.86      0.78       203
+   elephants       0.75      0.64      0.69       152
+      horses       0.86      0.83      0.84       472
+     spiders       0.77      0.88      0.82       403
+   squirells       0.74      0.75      0.74       244
+
+    accuracy                           0.80      1845
+   macro avg       0.79      0.79      0.78      1845
+weighted avg       0.81      0.80      0.80      1845

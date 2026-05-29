@@ -1,0 +1,18 @@
+INFORME DE CLASIFICACIÓN: CNN con Mayor Profundidad
+==================================================
+Loss:     0.64
+Accuracy: 80.70 %
+==================================================
+
+              precision    recall  f1-score   support
+
+ butterflies       0.70      0.70      0.70       248
+    chickens       0.70      0.71      0.71       467
+   elephants       0.72      0.36      0.48       202
+      horses       0.75      0.80      0.77       370
+     spiders       0.76      0.88      0.82       944
+   squirells       0.62      0.47      0.53       318
+
+    accuracy                           0.73      2549
+   macro avg       0.71      0.65      0.67      2549
+weighted avg       0.72      0.73      0.72      2549

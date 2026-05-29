@@ -1,0 +1,18 @@
+INFORME DE CLASIFICACIÓN: Modelo Original con Batch Normalization
+==================================================
+Loss:     0.74
+Accuracy: 73.88 %
+==================================================
+
+              precision    recall  f1-score   support
+
+ butterflies       0.95      0.61      0.75       371
+    chickens       0.58      0.74      0.65       203
+   elephants       0.67      0.67      0.67       152
+      horses       0.82      0.82      0.82       472
+     spiders       0.67      0.91      0.77       403
+   squirells       0.74      0.53      0.62       244
+
+    accuracy                           0.74      1845
+   macro avg       0.74      0.71      0.71      1845
+weighted avg       0.76      0.74      0.74      1845

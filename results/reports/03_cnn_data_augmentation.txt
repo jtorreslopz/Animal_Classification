@@ -1,0 +1,18 @@
+INFORME DE CLASIFICACIÓN: CNN con Data Augmentation
+==================================================
+Loss:     0.57
+Accuracy: 82.11 %
+==================================================
+
+              precision    recall  f1-score   support
+
+ butterflies       0.86      0.86      0.86       371
+    chickens       0.72      0.87      0.79       203
+   elephants       0.74      0.70      0.72       152
+      horses       0.91      0.83      0.87       472
+     spiders       0.83      0.83      0.83       403
+   squirells       0.74      0.75      0.75       244
+
+    accuracy                           0.82      1845
+   macro avg       0.80      0.81      0.80      1845
+weighted avg       0.82      0.82      0.82      1845

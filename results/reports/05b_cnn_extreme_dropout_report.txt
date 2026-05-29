@@ -1,0 +1,18 @@
+INFORME DE CLASIFICACIÓN: CNN con Grandes Dropouts (0.9)
+==================================================
+Loss:     1.04
+Accuracy: 58.97 %
+==================================================
+
+              precision    recall  f1-score   support
+
+ butterflies       0.95      0.57      0.71       371
+    chickens       0.38      0.81      0.52       203
+   elephants       0.00      0.00      0.00       152
+      horses       0.73      0.78      0.75       472
+     spiders       0.50      0.86      0.64       403
+   squirells       0.00      0.00      0.00       244
+
+    accuracy                           0.59      1845
+   macro avg       0.43      0.50      0.44      1845
+weighted avg       0.53      0.59      0.53      1845

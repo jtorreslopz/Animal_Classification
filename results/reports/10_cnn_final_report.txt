@@ -1,0 +1,18 @@
+INFORME DE CLASIFICACIÓN: Modelo Deep GAP (1024 neuronas, Augmentation y Batch Normalization)
+==================================================
+Loss:     0.39
+Accuracy: 86.88 %
+==================================================
+
+              precision    recall  f1-score   support
+
+ butterflies       0.92      0.90      0.91       371
+    chickens       0.79      0.90      0.84       203
+   elephants       0.77      0.93      0.84       152
+      horses       0.97      0.86      0.91       472
+     spiders       0.84      0.91      0.87       403
+   squirells       0.93      0.84      0.88       244
+
+    accuracy                           0.88      1845
+   macro avg       0.87      0.89      0.88      1845
+weighted avg       0.89      0.88      0.89      1845
