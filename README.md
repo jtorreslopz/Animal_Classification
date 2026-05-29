@@ -47,28 +47,39 @@ proyecto/
 
 El dataset contiene **13.412 imágenes de entrenamiento**, 2.549 de validación y 1.845 de test, distribuidas en 6 clases con desbalanceo notable (arañas ~30%, elefantes <10%).
 
-El dataset está disponible como submódulo Git en:
-👉 `https://github.com/[usuario]/[repo-dataset]`
+El dataset es de acceso público en GitHub:
+👉 https://github.com/kavishsanghvi/fauna-image-classification-using-convolutional-neural-network
 
-### Opción 1 — Clonar con submódulo (recomendado)
+### Instrucciones de descarga
 
-```bash
-git clone --recurse-submodules https://github.com/tu-usuario/tu-repo
-```
-
-### Opción 2 — Si ya tienes el repo clonado
+**1. Clona el repositorio del dataset:**
 
 ```bash
-git submodule update --init
+git clone https://github.com/kavishsanghvi/fauna-image-classification-using-convolutional-neural-network
 ```
 
-### Opción 3 — Clonar el dataset manualmente
-
-Si el submódulo no carga correctamente, clona el dataset directamente:
+**2. Copia la carpeta `data/` a la raíz de este proyecto con el nombre `dataset/`:**
 
 ```bash
-git clone https://github.com/[usuario]/[repo-dataset] dataset
+cp -r fauna-image-classification-using-convolutional-neural-network/data/ dataset/
 ```
+
+**3. Verifica que la estructura sea correcta:**
+
+```
+dataset/
+├── train/
+├── validation/
+└── test/
+```
+
+> Si prefieres ahorrar espacio, puedes usar solo el sparse checkout de la subcarpeta `data/`:
+> ```bash
+> git clone --filter=blob:none --sparse https://github.com/kavishsanghvi/fauna-image-classification-using-convolutional-neural-network
+> cd fauna-image-classification-using-convolutional-neural-network
+> git sparse-checkout set data
+> cp -r data/ ../dataset/
+> ```
 
 ---
 
