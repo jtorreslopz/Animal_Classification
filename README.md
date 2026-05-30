@@ -140,7 +140,18 @@ Se utiliza **F1-score macro** como métrica principal por ser la más adecuada p
 
 ---
 
-## Autor
+## References
 
-Trabajo de Fin de Grado — [Javier Torres López]  
-[UNED] — [2026]
+> Gatys, L. A., Ecker, A. S., & Bethge, M. (2015). *A Neural Algorithm of Artistic Style*. arXiv:1508.06576.
+
+> Tan, M., & Le, Q. V. (2019). *EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks*. ICML.
+
+> He, H., & Garcia, E. A. (2009). *Learning from Imbalanced Data*. IEEE TKDE.
+
+---
+
+## Author
+
+Torres López, J. (2025). Animal Classification — CNN. GitHub.
+https://github.com/jtorreslopz/Animal_Classification
+
