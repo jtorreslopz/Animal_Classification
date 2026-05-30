@@ -1,0 +1,13 @@
+# Deep Learning
+tensorflow>=2.13.0
+keras>=3.0.0
+
+# Data & ML utilities
+numpy>=1.21.0
+scikit-learn>=1.0.0
+
+# Visualisation
+matplotlib>=3.5.0
+
+# Standard library (no install needed)
+# os, pickle, time — built into Python
