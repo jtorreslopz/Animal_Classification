@@ -14,10 +14,6 @@ Este proyecto estudia el impacto de distintas técnicas de diseño y regularizac
 
 ```
 proyecto/
-├── dataset/                  ← submódulo Git (ver instrucciones abajo)
-│   ├── train/
-│   ├── validation/
-│   └── test/
 ├── utils/
 │   ├── __init__.py
 │   ├── dataset_loader.py     ← carga y preprocesado del dataset
@@ -40,7 +36,7 @@ proyecto/
     ├── plots/                ← curvas de aprendizaje y matrices de confusión
     └── reports/              ← informes de clasificación por modelo
 ```
-
+⚠️ The dataset/ folder is not included in this repository. Follow the instructions below to download and set it up locally.
 ---
 
 ## Dataset
